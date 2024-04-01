@@ -1,4 +1,8 @@
-.cabecalho-imagem{
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho-imagem-item{
     background-color: #383D58;
     color: #FFFFFF;
     display: flex;
@@ -7,4 +11,9 @@
 
 .cabecalho-imagem{
     width: 20%;
+}
+
+.cabecalho-imagem-item{display inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
 }
